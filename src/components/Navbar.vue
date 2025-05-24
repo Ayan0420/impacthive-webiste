@@ -2,7 +2,7 @@
 <nav :class="['navbar navbar-expand-lg fixed-top',  isTransparent ? 'bg-transparent fw-bold' : 'bg-light shadow']">
   <div class="container">
     <router-link class="navbar-brand" to="/">
-        <img class="img-fluid image-width" src="@/assets/images/impactHive-logo.png" alt="">
+        <img class="img-fluid image-width" src="@/assets/images-optimized/impactHive-logo.webp" alt="">
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" @click="toggleNavbar">
       <span class="navbar-toggler-icon"></span>

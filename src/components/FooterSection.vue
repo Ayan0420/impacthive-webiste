@@ -1,10 +1,10 @@
 <template>
-    <footer class="bg-light text-dark pt-5 pb-4">
+    <footer class="bg-white text-dark pt-5 pb-4">
       <div class="container">
         <div class="row gy-4">
           <!-- Company Info -->
           <div class="col-md-6">
-            <img class="img-fluid" width="300" src="@/assets/images/impactHive-logo.png" alt="">
+            <img class="img-fluid" width="300" src="@/assets/images-optimized/impactHive-logo.webp" alt="">
             <p class="text-muted fs-5 my-2">
               Empowering brands through innovative social media strategies. Let’s grow your online presence together.
             </p>
