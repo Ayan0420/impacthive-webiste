@@ -4,6 +4,7 @@
             <div class="container">
                 <div id="banner" class="row">
                     <div class="col-md-6 d-flex flex-column justify-content-center gap-3 py-5">
+                        <h1>Hello!</h1>
                         <h1 class="fw-bold text-dark display-4">Empowering Small Businesses with Bold Digital Impact</h1>
                         <p class="fs-5">We help small business owners across the United Kingdom grow through powerful social media management and strategic website design.</p>
                         <div class="btn btn-primary btn-lg rounded-pill px-4 align-self-start">Get in touch for a FREE consultation.</div>
