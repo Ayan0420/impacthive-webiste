@@ -13,13 +13,13 @@
             :aria-label="`Slide ${index + 1}`"
           ></button>
         </div>
-        <div class="carousel-inner py-5" style="height: 320px">
+        <div class="carousel-inner" style="height: 450px">
           <div
             v-for="(testimonial, index) in testimonials"
             :key="index"
             :class="['carousel-item', { active: index === 0 }]"
           >
-            <div class="card border-0 p-4 rounded-4 text-center">
+            <div class="card border-0 p-4 px-5 rounded-4 text-center">
               <!-- <img
                 :src="testimonial.image"
                 class="rounded-circle shadow mx-auto mb-4"
@@ -27,7 +27,7 @@
                 width="100"
                 height="100"
               /> -->
-              <p class="lead fst-italic mb-4">"{{ testimonial.quote }}"</p>
+              <p class="lead fst-italic mb-4 fs-3">"{{ testimonial.quote }}"</p>
               <h5 class="fw-bold mb-0">{{ testimonial.name }}</h5>
               <small class="text-muted">{{ testimonial.role }}</small>
             </div>
@@ -35,18 +35,18 @@
         </div>
   
         <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
       </div>
 
-      <p class="text-center fs-5 mt-4">
-        Want to be featured? Work with us and be part of the growing success stories.
+      <p class="text-center fs-6 mt-4">
+        Want to be featured? <RouterLink to="/contact" class="text-primary fw-bold">Work with us</RouterLink> and be part of the growing success stories.
       </p>
  
     </div>
@@ -54,6 +54,7 @@
   
   <script setup>
 import { ref } from 'vue';
+import { RouterLink } from 'vue-router';
 
 const testimonials = ref([
   {
@@ -91,7 +92,7 @@ const testimonials = ref([
   
   <style scoped>
   .card {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
     background-color: #fff;
   }

@@ -8,15 +8,13 @@ import { RouterView } from 'vue-router';
 
 <template>
   <Navbar />
-  <Transition name="dissolve" mode="out-in">
-    <RouterView />
-  </Transition>
+  <RouterView />
   <FooterSection />
 </template>
 
 
 <style>
-.dissolve-enter-active,
+/* .dissolve-enter-active,
 .dissolve-leave-active {
   transition: opacity 0.2s ease-in, transform 0.2s ease-out;
 }
@@ -25,6 +23,6 @@ import { RouterView } from 'vue-router';
 .dissolve-leave-to {
   opacity: 0;
   transform: translateY(-50px);
-}
+} */
 
 </style>

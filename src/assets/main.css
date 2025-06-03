@@ -31,3 +31,8 @@ body {
 .text-primary {
   color: #543a36 !important;
 }
+
+.callout-img {
+  max-width: 300px;
+  margin-bottom: 3rem;
+}

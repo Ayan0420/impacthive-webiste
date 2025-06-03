@@ -51,6 +51,7 @@
             
         </div>
         <div class="container text-center py-5">
+            <img src="@/assets/images-optimized/contact.svg" alt="web design" class="img-fluid callout-img">
             <p class="display-6 mb-4">
                 Let’s build something powerful together.
             </p>
@@ -77,7 +78,7 @@ h1 {
 #about-banner {
     min-height: 500px;
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), 
+        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
         url(@/assets/images-optimized/about-1.webp);
     background-size: cover;
     background-position: center;
